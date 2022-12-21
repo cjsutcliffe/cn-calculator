@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color:antiquewhite;
+}
+
+.header {
+  padding: 10px;
+  width: 100%;
+  font-family: "SevenSegment";
+  font-size: 70px;
+}
+.header h1 {
+  text-align: left;
+  font-size: 300%;
+}
+
+.content {
+  padding: 10px;
+  text-align: center;
+  background-color: #4c4b4b;
+  border-radius: 3%;
+}
+
+.display {
+  color: #252222;
+  background-color: #dbfe50;
+  font-size: 40px;
+  margin: auto;
+  border: 1px solid black;
+  min-height: 60px;
+  font-family: "SevenSegment";
+  width: 300px;
+  height: 70px;
+  text-align: end;
+}
+
+.calculator {
+  justify-content: center;
+}
+
+.calcBody {
+  background-color: #4c4b4b;
+  width: 300px;
+  height: 550px;
+  padding: 20px;
+}
+
+.calc-box {
+  /* border: 1px solid black; */
+  display: flex;
+  width: 300px;
+  height: auto;
+  /* padding: 5px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/* .numbers {
+  flex-direction: row-reverse;
+} */
+
+.numberButtons {
+  padding: 22px;
+  margin-top: 20px;
+  background-color: #7381ef;
+  color: #ffffff;
+  list-style: none;
+  flex-grow: 1;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #454545;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+  width:60px;
+}
+
+.mathsButtons {
+  padding: 22px;
+  margin-top: 20px;
+  background-color: #7381ef;
+  color: #ffffff;
+  list-style: none;
+  flex-grow: 1;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 0 0 5px #2a5a97;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 22px;
+  width:60px;
+}
+
+/* Animation on button */
+/* All button */
+.numberButtons:active,
+.mathsButtons:active {
+  color: #c0bdbb;
+  background: #020090;
+  box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 40px;
+}
+
+.footer {
+  /* position: fixed; */
+  bottom: 0px;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
