@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cn-calculator/static/css/main.a4eba6a9.css",
+    "main.js": "/cn-calculator/static/js/main.7e4ce33e.js",
+    "static/media/SevenSegment.ttf": "/cn-calculator/static/media/SevenSegment.3ee4f8118d9db6b61456.ttf",
+    "index.html": "/cn-calculator/index.html",
+    "main.a4eba6a9.css.map": "/cn-calculator/static/css/main.a4eba6a9.css.map",
+    "main.7e4ce33e.js.map": "/cn-calculator/static/js/main.7e4ce33e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4eba6a9.css",
+    "static/js/main.7e4ce33e.js"
+  ]
+}
